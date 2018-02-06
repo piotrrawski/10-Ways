@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+}
+
+.welcome {
+    background-image: url(../images/background.jpg);
+    color: white;
+    background-size: cover;
+    padding-bottom: 170px;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+}
+
+header {
+    width: 80px;
+    margin-bottom: 170px;
+}
+
+.up {
+    margin-top: 27px;
+    width: 100px;
+    height: 20px;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: block;
+    padding-left: 25px;
+    color: white;
+    float: right;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+li:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.one {
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.best {
+    font-size: 60px;
+    font-weight: 400px;
+    line-height: 60px;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+
+.button {
+    width: 200px;
+    height: 70px;
+    background-color: crimson;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.button:hover {
+opacity: 0.9;
+}
+
+.about {
+    height: 500px;
+    text-align: center;
+}
+
+.txtone {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: capitalize;
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+
+.txttwo {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #b7b7b7;
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
+.loremone {
+    margin-bottom: 26px;
+}
+
+footer {
+    background-color: black;
+    height: 300px;
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.down {
+    width: 100px;
+    height: 20px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.box {
+    width: 229px;
+    margin-bottom: 90px;
+    display: inline-block;
+}
+.copy {
+    width: 220px;
+    margin-bottom: 90px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400px;
+    color: #353434;
+}
